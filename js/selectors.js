@@ -18,3 +18,8 @@ function divSelector() {
   let divs = $('.pics');
   return divs;
 }
+
+function firstListItem() {
+  let first = $('ul#pic-list li:first-child');
+  return first;
+}
