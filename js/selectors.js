@@ -5,6 +5,6 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  let lastImage = $('ul#pic-list li img');
+  let lastImage = $('div.pics ul#pic-list li img');
   return lastImage;
 }
